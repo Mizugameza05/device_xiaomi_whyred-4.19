@@ -123,7 +123,7 @@ ro.soc.model=SDM660
 dalvik.vm.dex2oat64.enabled=true
 
 # Graphics
-debug.hwui.renderer=skiagl
+debug.hwui.renderer=opengl
 debug.renderengine.backend=skiaglthreaded
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=0
