@@ -25,9 +25,12 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := blaze_whyred
 PRODUCT_MODEL := Redmi Note 5 Pro
 
-# Project-Blaze Stuff
-
+# Blaze Official Stuff
+BLAZE_BUILD_TYPE := OFFICIAL
+BLAZE_MAINTAINER := Mizugameza
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USE_PIXEL_CHARGER := true
+TARGET_SUPPORTS_BLUR := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
 
