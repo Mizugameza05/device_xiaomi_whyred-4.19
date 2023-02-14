@@ -122,10 +122,6 @@ ro.soc.model=SDM660
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
-# Delay Service Restart
-ro.vendor.qti.am.reschedule_service=true
-ro.vendor.qti.am.reschedule=true
-
 # Display
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=0
