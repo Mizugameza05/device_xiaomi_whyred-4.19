@@ -15,15 +15,14 @@ $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 # Inherit from whyred device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Bootanimation
-TARGET_SCREEN_WIDTH := 720
-TARGET_SCREEN_HEIGHT := 1080
-
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := blaze_whyred
 PRODUCT_MODEL := Redmi Note 5 Pro
+
+# Boot Animation
+TARGET_BOOT_ANIMATION_RES := 720
 
 # Blaze Official Stuff
 BLAZE_BUILD_TYPE := OFFICIAL
